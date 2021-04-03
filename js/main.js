@@ -18,3 +18,18 @@ $(window).on('scroll', function() {
     $('nav').removeClass('stickyAdd');
   }
 });
+
+//iskustvo progress bar
+var waypoint = new Waypoint({
+  element: document.getElementById('iskustvo'),
+  handler: function() {
+    var progress = document.querySelectorAll('.progress-bar');
+    progress[0].setAttribute("style", "width: 95%; transition-duration: 1s;");
+    progress[1].setAttribute("style", "width: 75%; transition-duration: 2s;");
+    progress[2].setAttribute("style", "width: 80%; transition-duration: 3s;");
+    progress[3].setAttribute("style", "width: 90%; transition-duration: 4s;");
+  },
+  offset: '90%',
+});
+
+

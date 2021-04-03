@@ -19,7 +19,7 @@ html {
 body {
   font-family: $fontFamily;
   color: $primary;
-  background-image:linear-gradient(rgba($black, .8), rgba($black, .8)), url(../img/bg.jpg);
+  background-image:linear-gradient(rgba($black, .9), rgba($black, .9)), url(../img/bg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -132,6 +132,8 @@ program
   .card {
     background: $black;
     padding: 30px;
+    margin-bottom: 30px;
+    transition: $transition;
     i {
       color: $accents;
       font-size: 3rem;
@@ -147,5 +149,17 @@ program
         margin: 20px auto;
       }
     }
+    &:hover {
+      background: $primary;
+    }
+  }
+}
+/***********
+ iskustvo 
+ ***********/
+#iskustvo {
+  padding: $paddingY;
+  .progress-bar {
+      background: $accents;
   }
 }

@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Nunito Sans", sans-serif;
   color: #1e242b;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/bg.jpg);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -129,6 +129,8 @@ program
 #program .card {
   background: #000;
   padding: 30px;
+  margin-bottom: 30px;
+  transition: 0.3s ease;
 }
 #program .card i {
   color: #02bece;
@@ -144,6 +146,19 @@ program
   background: #02bece;
   width: 50px;
   margin: 20px auto;
+}
+#program .card:hover {
+  background: #1e242b;
+}
+
+/***********
+ iskustvo 
+ ***********/
+#iskustvo {
+  padding: 100px 0;
+}
+#iskustvo .progress-bar {
+  background: #02bece;
 }
 
 /*# sourceMappingURL=style.css.map */
