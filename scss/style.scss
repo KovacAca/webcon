@@ -179,3 +179,29 @@ program
      margin: 30px 0;
    }
  }
+ /***********
+ kontakt
+ ***********/
+ #kontakt {
+   padding: $paddingY;
+   background: rgba($accents, .8);
+ }
+  /***********
+ prijava
+ ***********/
+ #prijava {
+   padding: $paddingY;
+ }
+  /***********
+ footer
+ ***********/
+ footer {
+   background: rgba($accents, .8);
+   a {
+     color: $white;
+     margin: 0 10px;
+     &:hover {
+     color: $primary;
+     }
+   }
+ }
