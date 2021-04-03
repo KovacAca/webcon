@@ -53,3 +53,8 @@ $('.owl-carousel').owlCarousel({
       }
   }
 });
+
+// radionice filterizr
+var filterizd = $('.filter-container').filterizr({
+  animationDuration: .5
+});
