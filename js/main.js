@@ -32,4 +32,24 @@ var waypoint = new Waypoint({
   offset: '90%',
 });
 
-
+//owl slider
+$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:true,
+  //Zelimo da se automatski pokrece:
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplaySpeed: 1500,
+  responsive:{
+      0:{
+          items:1
+      },
+      600:{
+          items:3
+      },
+      1000:{
+          items:4
+      }
+  }
+});

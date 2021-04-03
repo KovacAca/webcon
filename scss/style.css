@@ -161,4 +161,12 @@ program
   background: #02bece;
 }
 
+/***********
+ tehnologije
+ ***********/
+#tehnologije {
+  padding: 100px 0;
+  background: rgba(2, 190, 206, 0.8);
+}
+
 /*# sourceMappingURL=style.css.map */
